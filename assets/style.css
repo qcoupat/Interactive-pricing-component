@@ -38,3 +38,16 @@ body p {
     color: hsl(227, 35%, 25%);
     margin: 10px 0 10px 0;
 }
+form {
+    background-color: hsl(0, 0%, 100%);
+    border: 1px solid black;
+}
+.pricing {
+    display: flex;
+    align-items: stretch;
+    width: 100%;
+}
+.views {
+    text-transform: uppercase;
+    width: 50%;
+}
