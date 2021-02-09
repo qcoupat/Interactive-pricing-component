@@ -2,6 +2,11 @@ body{
     background-image: url(../images/bg-pattern.svg);
     background-repeat: no-repeat;
     background-color: hsl(230, 100%, 99%);
+    font-family: Manrope, sans-serif;
+    color: hsl(225, 20%, 60%);
+}
+body p {
+    font-size: 15px;
 }
 .attribution {
     font-size: 11px; 
@@ -9,4 +14,21 @@ body{
 }
 .attribution a { 
     color: hsl(228, 45%, 65%); 
+}
+.circles{
+    margin-left: auto;
+    margin-right: auto;
+}
+.titles {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+}
+.main h1 {
+    color: hsl(227, 35%, 25%);
 }
