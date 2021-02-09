@@ -1,0 +1,11 @@
+body{
+    background-image: url(/images/bg-pattern.svg);
+    background-repeat: no-repeat;
+}
+.attribution {
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 65%); 
+}
