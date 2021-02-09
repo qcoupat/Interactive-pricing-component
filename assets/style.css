@@ -7,6 +7,7 @@ body{
 }
 body p {
     font-size: 15px;
+    margin-top: 0;
 }
 .attribution {
     font-size: 11px; 
@@ -19,6 +20,9 @@ body p {
     margin-left: auto;
     margin-right: auto;
 }
+.circle, img {
+    position: absolute;
+}
 .titles {
     display: flex;
     flex-direction: column;
@@ -28,7 +32,9 @@ body p {
 .main {
     display: flex;
     flex-direction: column;
+    text-align: center;
 }
 .main h1 {
     color: hsl(227, 35%, 25%);
+    margin: 10px 0 10px 0;
 }
